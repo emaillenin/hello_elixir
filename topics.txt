@@ -1,0 +1,29 @@
+Duck Typing
+Immutability
+Purely functional (no Class, no .new())
+Pipe Operators
+Data structures - List, Tuples, Keyword Lists, Hash Dictionary, Map, Structs
+First class Functions
+Function alias - Play with functions:
+iex(14)> (&(&1 + &2)).(1,2)
+3
+List comprehensions
+Processes
+
+Things that might get you excited to learn Elixir:
+
+* Process oriented architecture aka Actor Model
+* Ruby/Rails framework
+* Scale up specific components
+
+Phoenix Framework:
+
+* Deploying a phoenix app - https://github.com/bitwalker/exrm
+* Hot deploy - Zero downtime. Verify with continuous creation of articles via REST API during deployment. Send 1000 requests and ensure all 1000 is present in the database
+
+
+
+
+Web Crawler in Elixir:
+    1. Use process/spawn. The receive method returns the count of current mobile numbers
+    2. Use supervisors to monitor all process
